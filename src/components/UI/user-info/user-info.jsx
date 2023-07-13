@@ -14,6 +14,7 @@ import UserData from "./components/user-data";
 import UserAvatar from "./components/user-avatar";
 import UserUpdate from "./components/user-update";
 import { capitalizeFirstLetter } from "../../../utils/capitalize-first-letter";
+import AlertText from "./components/alert-text";
 
 const Component = styled(Box)({
   display: "flex",
@@ -131,15 +132,7 @@ const UserInfo = ({ selectedUser, selectedUserID, setIsEdit, isEdit }) => {
         ) : (
           <Typography variant="h6">Выберите пользователя</Typography>
         )}
-        <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-          <Alert
-            onClose={handleClose}
-            severity="success"
-            sx={{ width: "100%" }}
-          >
-            Вы успешно изменили данные пользователя
-          </Alert>
-        </Snackbar>
+        <AlertText open={open} onClose={handleClose} />
       </Main>
     </Component>
   );

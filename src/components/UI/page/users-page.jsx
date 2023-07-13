@@ -9,7 +9,7 @@ import { getUsersByID, getUsersList } from "../../../store/users-list.store";
 // components
 import UsersList from "../users-list/users-list";
 import UserInfo from "../user-info/user-info";
-
+import CircularProgress from "@mui/material/CircularProgress";
 const Component = styled(Box)`
   height: 100%;
   display: flex;

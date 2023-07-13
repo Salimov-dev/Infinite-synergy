@@ -6,12 +6,8 @@ const usersListSlice = createSlice({
     entities: [],
   },
   reducers: {
-    usersListRequested: (state) => {
-      state.isLoading = true;
-    },
     usersListReceived: (state, action) => {
       state.entities = action.payload;
-      state.isLoading = false;
     },
     userUpdateSuccessed: (state, action) => {
       const { id } = action.payload;
@@ -27,15 +23,24 @@ const usersListSlice = createSlice({
 });
 
 const { reducer: usersListReducer, actions } = usersListSlice;
-const { usersListRequested, usersListReceived, userUpdateSuccessed } = actions;
+const { usersListReceived, userUpdateSuccessed } = actions;
 
-export const loadUsersList = (data) => (dispatch) => {
-  dispatch(usersListRequested);
-  dispatch(usersListReceived(data));
+export const loadUsersList = (data) => async (dispatch) => {
+  try {
+    await new Promise((resolve) => setTimeout(resolve, 0))
+
+    dispatch(usersListReceived(data));
+  } catch (error) {
+    console.log("error", error);
+  }
 };
 
-export const updateUser = (data, id) => (dispatch) => {
-  dispatch(userUpdateSuccessed(data, id));
+export const updateUser = (data, id) => async (dispatch) => {
+  try {
+    await dispatch(userUpdateSuccessed(data, id));
+  } catch (error) {
+    console.log("error", error);
+  }
 };
 
 export const getUsersByID = (id) => (state) => {
@@ -44,6 +49,5 @@ export const getUsersByID = (id) => (state) => {
 };
 
 export const getUsersList = () => (state) => state.users.entities;
-export const getUsersStatus = () => (state) => state.users.isLoading;
 
 export default usersListReducer;

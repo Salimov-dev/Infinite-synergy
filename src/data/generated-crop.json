@@ -4,80 +4,80 @@
     "age": 30,
     "firstName": "Hendricks",
     "lastName": "Dale",
-    "email": "hendricksdale@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/91.jpg"
+    "email": "hendricksdale@proflex.com"
+    
   },
   {
     "id": "35a0f6a7-d328-4506-98fa-bc48b8e57437",
     "age": 30,
     "firstName": "Mack",
     "lastName": "Santana",
-    "email": "macksantana@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/62.jpg"
+    "email": "macksantana@proflex.com"
+  
   },
   {
     "id": "6df82086-4137-436c-894f-952311d68cdc",
     "age": 40,
     "firstName": "Stone",
     "lastName": "Pollard",
-    "email": "stonepollard@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/3.jpg"
+    "email": "stonepollard@proflex.com"
+
   },
   {
     "id": "1df92e32-9938-48ab-9be2-6476ec7361b1",
     "age": 29,
     "firstName": "Cash",
     "lastName": "Shepherd",
-    "email": "cashshepherd@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/54.jpg"
+    "email": "cashshepherd@proflex.com"
+
   },
   {
     "id": "0eb5869a-1c0c-4626-b79d-daa3bdc8c586",
     "age": 24,
     "firstName": "Phoebe",
     "lastName": "Baldwin",
-    "email": "phoebebaldwin@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/19.jpg"
+    "email": "phoebebaldwin@proflex.com"
+
   },
   {
     "id": "227d962e-c4b4-4511-a1f2-e814e4bf49af",
     "age": 35,
     "firstName": "Bianca",
     "lastName": "Matthews",
-    "email": "biancamatthews@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/72.jpg"
+    "email": "biancamatthews@proflex.com"
+
   },
   {
     "id": "5c9d42ff-6ee5-467c-a6c9-1639aefeaf52",
     "age": 32,
     "firstName": "Blanca",
     "lastName": "Snow",
-    "email": "blancasnow@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/48.jpg"
+    "email": "blancasnow@proflex.com"
+
   },
   {
     "id": "cafc034f-6c4c-4d8f-8e50-3d042805697d",
     "age": 30,
     "firstName": "Bobbi",
     "lastName": "Cantrell",
-    "email": "bobbicantrell@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/39.jpg"
+    "email": "bobbicantrell@proflex.com"
+
   },
   {
     "id": "e55eab53-0fb2-4e41-aa81-3ed0efc3ba61",
     "age": 27,
     "firstName": "Marisol",
     "lastName": "Rodriguez",
-    "email": "marisolrodriguez@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/71.jpg"
+    "email": "marisolrodriguez@proflex.com"
+
   },
   {
     "id": "68d94491-ad88-4f0a-afd7-d621ee3489f3",
     "age": 32,
     "firstName": "Connie",
     "lastName": "Richardson",
-    "email": "connierichardson@proflex.com",
-    "src": "https://randomuser.me/api/portraits/women/24.jpg"
+    "email": "connierichardson@proflex.com"
+
   },
   {
     "id": "208d968e-9368-4b2c-87e6-9458fed2099c",

@@ -4,7 +4,7 @@ import { generatePhotoNumber } from "../../../../utils/generate-photo-number";
 const Component = styled(Box)(({ selected }) => ({
   width: "100%",
   display: "flex",
-  flexDirection: "row-reverse",
+  // flexDirection: "row-reverse",
   alignItems: "center",
   gap: "5px",
   padding: "0 15px",
@@ -35,6 +35,7 @@ const UserAvatar = styled("img")({
 
 const User = ({ user, onClick, selectedUserID }) => {
   const selected = user.id === selectedUserID;
+  // console.log("user", user);
 
   return (
     <Component selected={selected} onClick={() => onClick(user.id)}>
